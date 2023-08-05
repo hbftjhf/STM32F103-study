@@ -2,7 +2,7 @@
  * @file bsp_LED.c
  * @author hbftjhf (hbftjhf@outlook.com)
  * @brief led驱动模块
- * @version 0.1
+ * @version v1.1 新增了led翻转函数bsp_LedToggle。
  * @date 2023-08-02
  * 
  * @copyright Copyright (c) 2023
@@ -10,10 +10,7 @@
  */
 #include "bsp.h"
 
-/* 选择开发板 */
-#define STM32F103ZE 0
-#define STM32F103C8 1
-
+/* led所有端口时钟 */
 #define RCC_ALL_LED (RCC_APB2Periph_GPIOB|RCC_APB2Periph_GPIOE)
 
 #define GPIO_PORT_LED0 	GPIOB
@@ -76,5 +73,19 @@ void bsp_Led_Off(uint8_t _no)
 	}else if (_no==1)
 	{
 		GPIO_SetBits(GPIO_PORT_LED1,GPIO_PIN_LED1);
+	}
+}
+
+/**
+ * @brief 翻转led
+ * 
+ * @param _no led灯序号
+ */
+void bsp_LedToggle(uint8_t _no)
+{
+	if(_no==0){
+		GPIO_PORT_LED0->ODR^=GPIO_PIN_LED0;
+	}else if (_no==1){
+		GPIO_WriteBit(GPIO_PORT_LED1,GPIO_PIN_LED1,(BitAction)!(GPIO_ReadOutputDataBit(GPIO_PORT_LED1,GPIO_PIN_LED1)));
 	}
 }

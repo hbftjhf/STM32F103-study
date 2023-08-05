@@ -414,6 +414,11 @@
               <FileType>1</FileType>
               <FilePath>..\User\bsp\bsp.c</FilePath>
             </File>
+            <File>
+              <FileName>bsp_key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\bsp\src\bsp_key.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

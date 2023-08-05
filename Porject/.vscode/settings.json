@@ -1,6 +1,9 @@
 {
 	"files.associations": {
 		"misc.h": "c",
-		"bsp.h": "c"
-	}
+		"bsp.h": "c",
+		"bsp_led.h": "c",
+		"stm32f10x_gpio.h": "c"
+	},
+	"commentTranslate.source": "Google"
 }

@@ -22,6 +22,7 @@ static uint16_t fac_ms=0;		//延时毫秒的频率
 void bsp_Init(void)
 {
 	bsp_led_Init();
+	bsp_key_Init();
 	bsp_SysTick_Init();
 }
 

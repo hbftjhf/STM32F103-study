@@ -3,18 +3,18 @@
         {
             "name": "Flash",
             "includePath": [
-                "c:\\Users\\hbftjhf\\WorkSpace\\嵌入式\\学习\\02-定时器点灯-STM32F103ZE\\Libraries\\CMSIS\\CM3\\DeviceSupport\\ST\\STM32F10x",
-                "c:\\Users\\hbftjhf\\WorkSpace\\嵌入式\\学习\\02-定时器点灯-STM32F103ZE\\Libraries\\STM32F10x_StdPeriph_Driver\\inc",
-                "c:\\Users\\hbftjhf\\WorkSpace\\嵌入式\\学习\\02-定时器点灯-STM32F103ZE\\Libraries\\CMSIS\\CM3\\CoreSupport",
-                "c:\\Users\\hbftjhf\\WorkSpace\\嵌入式\\学习\\02-定时器点灯-STM32F103ZE\\User",
-                "c:\\Users\\hbftjhf\\WorkSpace\\嵌入式\\学习\\02-定时器点灯-STM32F103ZE\\User\\bsp",
-                "c:\\Users\\hbftjhf\\WorkSpace\\嵌入式\\学习\\02-定时器点灯-STM32F103ZE\\User\\bsp\\inc",
-                "c:\\Users\\hbftjhf\\WorkSpace\\嵌入式\\学习\\02-定时器点灯-STM32F103ZE\\Libraries\\STM32F10x_StdPeriph_Driver\\src",
+                "c:\\Users\\hbftjhf\\WorkSpace\\Embedded\\Study-and-Practice\\STM32F103ZE-Study\\Libraries\\CMSIS\\CM3\\DeviceSupport\\ST\\STM32F10x",
+                "c:\\Users\\hbftjhf\\WorkSpace\\Embedded\\Study-and-Practice\\STM32F103ZE-Study\\Libraries\\STM32F10x_StdPeriph_Driver\\inc",
+                "c:\\Users\\hbftjhf\\WorkSpace\\Embedded\\Study-and-Practice\\STM32F103ZE-Study\\Libraries\\CMSIS\\CM3\\CoreSupport",
+                "c:\\Users\\hbftjhf\\WorkSpace\\Embedded\\Study-and-Practice\\STM32F103ZE-Study\\User",
+                "c:\\Users\\hbftjhf\\WorkSpace\\Embedded\\Study-and-Practice\\STM32F103ZE-Study\\User\\bsp",
+                "c:\\Users\\hbftjhf\\WorkSpace\\Embedded\\Study-and-Practice\\STM32F103ZE-Study\\User\\bsp\\inc",
+                "c:\\Users\\hbftjhf\\WorkSpace\\Embedded\\Study-and-Practice\\STM32F103ZE-Study\\Libraries\\STM32F10x_StdPeriph_Driver\\src",
                 "C:\\Users\\hbftjhf\\AppData\\Local\\Programs\\Keil_v5\\ARM\\ARMCC\\include",
                 "C:\\Users\\hbftjhf\\AppData\\Local\\Programs\\Keil_v5\\ARM\\ARMCC\\include\\rw",
-                "c:\\Users\\hbftjhf\\WorkSpace\\嵌入式\\学习\\02-定时器点灯-STM32F103ZE\\User\\bsp\\src",
-                "c:\\Users\\hbftjhf\\WorkSpace\\嵌入式\\学习\\02-定时器点灯-STM32F103ZE\\Libraries\\CMSIS\\CM3\\DeviceSupport\\ST\\STM32F10x\\startup\\arm",
-                "c:\\Users\\hbftjhf\\WorkSpace\\嵌入式\\学习\\02-定时器点灯-STM32F103ZE\\Doc"
+                "c:\\Users\\hbftjhf\\WorkSpace\\Embedded\\Study-and-Practice\\STM32F103ZE-Study\\User\\bsp\\src",
+                "c:\\Users\\hbftjhf\\WorkSpace\\Embedded\\Study-and-Practice\\STM32F103ZE-Study\\Libraries\\CMSIS\\CM3\\DeviceSupport\\ST\\STM32F10x\\startup\\arm",
+                "c:\\Users\\hbftjhf\\WorkSpace\\Embedded\\Study-and-Practice\\STM32F103ZE-Study\\Doc"
             ],
             "defines": [
                 "USE_STDPERIPH_DRIVER",

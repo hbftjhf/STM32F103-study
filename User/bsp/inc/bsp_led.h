@@ -14,5 +14,7 @@
 void bsp_led_Init(void);
 void bsp_Led_On(uint8_t _no);
 void bsp_Led_Off(uint8_t _no);
+void bsp_LedToggle(uint8_t _no);
+
 
 #endif // !__BSP_LED_H
