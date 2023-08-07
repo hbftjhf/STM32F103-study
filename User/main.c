@@ -12,11 +12,12 @@
 int main()
 {
 	bsp_Init();
-	bsp_Led_On(0);
+	// bsp_Led_On(0);
 	bsp_Led_On(1);
 	while (1)
 	{
-		bsp_key_scand();
+		//bsp_LedToggle(0);
+		//delay_ms(1000);
 	}
 	
 }

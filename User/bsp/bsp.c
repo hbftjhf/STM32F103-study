@@ -23,6 +23,7 @@ void bsp_Init(void)
 {
 	bsp_led_Init();
 	bsp_key_Init();
+	bsp_Init_Key_EXTI();
 	bsp_SysTick_Init();
 }
 

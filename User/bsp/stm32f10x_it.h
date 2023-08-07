@@ -1,24 +1,38 @@
-/*
-*********************************************************************************************************
-*	                                  
-*	模块名称 : 中断模块
-*	文件名称 : stm32f10x_it.h
-*	版    本 : V2.0
-*	说    明 : 头文件
-*	修改记录 :
-*		版本号  日期       作者    说明
-*		v1.0    2011-05-13 armfly  ST固件库V3.4.0版本
-*		v2.0    2011-10-16 armfly  ST固件库V3.5.0版本
-*
-*	Copyright (C), 2010-2011, 安富莱电子 www.armfly.com
-*
-*********************************************************************************************************
-*/
+/**
+  ******************************************************************************
+  * @file    Project/STM32F10x_StdPeriph_Template/stm32f10x_it.h 
+  * @author  MCD Application Team
+  * @version V3.6.0
+  * @date    20-September-2021
+  * @brief   This file contains the headers of the interrupt handlers.
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2011 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
 
+/* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef __STM32F10x_IT_H
 #define __STM32F10x_IT_H
 
+#ifdef __cplusplus
+ extern "C" {
+#endif 
+
+/* Includes ------------------------------------------------------------------*/
 #include "stm32f10x.h"
+
+/* Exported types ------------------------------------------------------------*/
+/* Exported constants --------------------------------------------------------*/
+/* Exported macro ------------------------------------------------------------*/
+/* Exported functions ------------------------------------------------------- */
 
 void NMI_Handler(void);
 void HardFault_Handler(void);
@@ -30,6 +44,9 @@ void DebugMon_Handler(void);
 void PendSV_Handler(void);
 void SysTick_Handler(void);
 
+#ifdef __cplusplus
+}
 #endif
 
+#endif /* __STM32F10x_IT_H */
 

@@ -32,10 +32,8 @@ void bsp_led_Init(void)
 	
 	GPIO_InitStructure.GPIO_Mode=GPIO_Mode_Out_PP;		/* 设置输出模式 */
 	GPIO_InitStructure.GPIO_Speed=GPIO_Speed_50MHz;		/* 设置输出速率 */
-	GPIO_InitStructure.GPIO_Pin=GPIO_PIN_LED0;		/* 选择引脚 */
-
-	GPIO_Init(GPIO_PORT_LED0,&GPIO_InitStructure);
-	//GPIO_ResetBits(GPIO_PORT_LED0,GPIO_PIN_LED0);
+	GPIO_InitStructure.GPIO_Pin=GPIO_PIN_LED0;			/* 选择引脚 */
+	GPIO_Init(GPIO_PORT_LED0,&GPIO_InitStructure);		/* 初始化*/
 	GPIO_SetBits(GPIO_PORT_LED0,GPIO_PIN_LED0);
 
 	GPIO_InitStructure.GPIO_Pin=GPIO_PIN_LED1;
